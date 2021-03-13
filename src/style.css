@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  /* xoutline: 1px solid red; */
+}
+
+html {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 15px;
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white
+}
+
+.hero {
+  line-height: normal;
+  width: 100%;
+  height: calc(100vh - 30px);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+} */
+
+.instructions {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 1.4rem;
+  color: white;
+  font-family: Inconsolata, monospace;
+}
